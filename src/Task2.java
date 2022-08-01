@@ -6,7 +6,7 @@ public class Task2 {
     int a = 4;
     int b = 6;
     int squareRectangle = a*b;
-            System.out.println("Площадь круга равна: " + squareRectangle);
+            System.out.println("Площадь прямоугольника: " + squareRectangle);
 
 
 }
