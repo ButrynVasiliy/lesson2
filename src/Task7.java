@@ -8,7 +8,7 @@ public class Task7 {
 
 
         }
-        System.out.println("Сума єементів масиву крім першого і останього = " +sum);
+        System.out.println("Сума ементів масиву крім першого і останього = " +sum);
 
     }
 }
