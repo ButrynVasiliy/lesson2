@@ -3,16 +3,17 @@ public class Task4Lesson3 {
     // You need to make this string lowercased and remove all vowels.
     public static void main(String[] args){
         String alfabet = "ABCDEFGHIJK";
-        String newAlfabet = new String(alfabet.toLowerCase());
-        System.out.println("toLowerCase = " +newAlfabet);
+        alfabet = alfabet.toLowerCase();
+
+         System.out.println("toLowerCase = " +alfabet);
 
         String vowelsToRemove = "aei";
 
         for (char c : vowelsToRemove.toCharArray()) {
-            newAlfabet = newAlfabet.replace(String.valueOf(c), "");
+            alfabet = alfabet.replace(String.valueOf(c), "");
         }
 
-        System.out.println(newAlfabet);
+        System.out.println(" After to removes vowels  - " + alfabet);
 
         }
 

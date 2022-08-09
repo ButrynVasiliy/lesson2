@@ -11,8 +11,12 @@ public class Task6Lesson3 {
         String loginName = email.substring(0, index1);
         String loginSername = email.substring(index1+1, index);
         String domain = email.substring(index+1, email.length());
-        System.out.println("\'login\' - " +loginName.replace("j", "J") + " " +loginSername.replace("s", "S"));
+
+        // maybe this option is correct
+        System.out.println( "\'login\' - " + loginName.substring(0, 1).toUpperCase() + loginName.substring(1)
+                + " " + loginSername.substring(0,1).toUpperCase() + loginSername.substring(1));
         System.out.println("\'domain\' - " +domain);
+        //System.out.println("\'login\' - " +loginName.replace("j", "J") + " " +loginSername.replace("s", "S"));
 
 
     }

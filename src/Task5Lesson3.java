@@ -7,14 +7,14 @@ public class Task5Lesson3 {
 
         String a = "hop";
         String b = "hello";
+        StringBuilder result;
                 if ( a.length() < b.length()) {
-                    StringBuilder result = new StringBuilder(a + " " + b + " " + a);
-                    System.out.println(result);
+                    result = new StringBuilder(a + " " + b + " " + a);
                 }
                 else {
-                    StringBuilder resultOther = new StringBuilder(b + " " + a + " " + b);
-                    System.out.println(resultOther);
+                    result = new StringBuilder(b + " " + a + " " + b);
                 }
+        System.out.println(result);
 
     }
 }
