@@ -1,3 +1,5 @@
+package Lesson3;
+
 public class Task1Lesson3 {
     //1. Given a string. Write a code that will create a new string made of the first two characters of the initial string.
     //If the string is shorter than length 2, return whatever there is, so "X" yields "X", and the empty string "" yields

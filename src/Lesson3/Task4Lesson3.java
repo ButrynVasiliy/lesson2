@@ -1,3 +1,5 @@
+package Lesson3;
+
 public class Task4Lesson3 {
     //4. Given a string "ABCDEFGHIJK".
     // You need to make this string lowercased and remove all vowels.

@@ -1,3 +1,5 @@
+package Lesson2;
+
 import java.util.Arrays;
 // Необхідно знайти два максимальних числа в масиві, але максимальні числа не маєть дублюватися.
 public class Task10 {

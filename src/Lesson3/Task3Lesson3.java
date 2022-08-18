@@ -1,3 +1,5 @@
+package Lesson3;
+
 public class Task3Lesson3 {
     //3. Given two strings. Check if they start with "The".
     //

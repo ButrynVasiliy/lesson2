@@ -1,3 +1,5 @@
+package Lesson3;
+
 import java.util.Arrays;
 
 public class Task8Lesson3 {
